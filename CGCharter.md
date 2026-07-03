@@ -1,57 +1,65 @@
-# [DRAFT] {TBD: name} Community Group Charter
-
-{TBD: This is a draft template that Community or Business Groups MAY
-      choose to use for their Group Charter. You may edit your charter
-      to remove or change the text provided here. Community Groups
-      SHOULD have charters as a way to build shared understanding
-      within a group about activities, and to attract new participants
-      who appreciate a clear description of the group's scope and
-      deliverables.}
-	  
-{TBD: The charter sections below include notes (marked with
-      <code>{TBD}</code>) on what to include and recommended text. Please
-      remember to remove the notes
-      in your specific charter.}
+# [DRAFT] RecordWeb Community Group Charter
 
 {TBD: remove next sentence before submitting for approval}  
-This Charter is a work in progress. To submit feedback, please use {TBD:GitHub repository URL} Issues where the Charter is being developed.
+This Charter is a work in progress. To submit feedback, please use [RecordWeb GitHub organisation Issues](https://github.com/recordweb/.github) where the Charter is being developed.
 
-* **This Charter:** {TBD: URI}  
-* **Previous Charter:** {TBD: URI}  
-* **Start Date:** {TBD: date the charter takes effect}  
-* **Last Modified:** {TBD: date of last modification}
+* **This Charter:** https://github.com/recordweb/.github/blob/main/CGCharter.md  
+* **Previous Charter:** None  
+* **Start Date:** TBD  
+* **Last Modified:** 2026-07-03
 
 ## Goals
 
-{TBD: describe the mission and goals of the Community Group. This
-      should be a brief description describing the reason the group
-      has been formed.}
+The RecordWeb Community Group develops an open, royalty-free application and profile layer for institutionally provable information on the Web.
+
+Its purpose is to define how existing Web standards (in particular DID Core, PROV-O, Verifiable Credentials, and related technologies) can be composed into an interoperable architecture for institutional records management across public authorities, regulated organisations, and other institutional contexts.
+
+The group aims to produce both:
+- explanatory material that makes the RecordWeb model understandable and discussable across disciplines; and
+- normative specifications that can be implemented by software systems and referenced by institutions in procurement, implementation, and interoperability requirements.
 
 ## Scope of Work
 
-{TBD: Describe topics that are in scope.
-      It is helpful to describe the scope in a way
-      that makes clear what types of technologies will be defined in
-      Specifications, as opposed to adoption by reference or underlying
-      technology not defined in the proposed Specifications.
-      Key use cases are often helpful in describing the scope.
-      If the CG does not plan to publish Specifications,
-      the charter should clearly say so.}
+The scope of the group is the development of RecordWeb as an application and interoperability layer for institutional records on the Web.
+
+In scope are:
+- the conceptual model of the Record as the smallest semantically autonomous unit of institutional information;
+- versioned, attributable, and cryptographically verifiable institutional records;
+- the composition of existing standards such as DID Core, PROV-O, VC Data Model, JSON-LD, and related technologies into RecordWeb application profiles;
+- the RecordWeb Protocol (RWP) as a normative implementation profile;
+- the `did:rwp` DID method specification and related resolver/profile work;
+- use cases, implementation guidance, examples, proof-of-concept work, and interoperability considerations for public authorities and institutional adopters;
+- liaison with other relevant groups and standards communities where appropriate.
+
+The group does not aim to replace or redefine the underlying W3C standards it builds on. Instead, it defines how these standards are applied together in the institutional records domain.
+
+Key use cases include:
+- public administration processes such as permits and case handling;
+- inter-organisational exchange of accountable records;
+- long-term traceability and proof of institutional information states;
+- procurement and implementation of interoperable records-management systems.
 
 ### Out of Scope
 
-{TBD: identify topics known in advance to be out of scope.}
+The following topics are out of scope for the current charter:
+- redefining the core data models or normative requirements of underlying W3C standards such as DID Core, PROV-O, or VC Data Model;
+- creating a general-purpose records management standard outside the RecordWeb application/profile context;
+- defining proprietary or royalty-bearing technologies;
+- private or non-public governance processes for technical decision-making.
 
 ## Deliverables
 
 ### Specifications
 
-{TBD: Provide a brief description of each Specification the group
-      plans to produce. Where an estimate is possible, it can be
-      useful to provide an estimated schedule for key deliverables. As
-      described below, the group may later modify the charter
-      deliverables. If no Specifications, include: "No Specifications
-      will be produced under the current charter."}
+The group expects to produce the following Specification deliverables:
+
+1. **RecordWeb Protocol (RWP)**  
+   A normative implementation profile describing how RecordWeb applies existing Web standards to create, manage, version, link, and verify institutional records in an interoperable and royalty-free manner.
+
+2. **`did:rwp` DID Method Specification**  
+   A DID method specification for RecordWeb identifiers, including method-specific resolution and interoperability considerations, with the intent of eventual submission to the W3C DID Specification Registries.
+
+Additional specification deliverables may be added by charter update if the group later identifies a clear need for further normative profiles or companion specifications.
 
 ### Non-Normative Reports
 
@@ -59,38 +67,27 @@ The group may produce other Community Group Reports within the scope of this cha
 
 ### Test Suites and Other Software
 
-{TBD: If there are no plans to create a test suite or other software,
-     please state that and remove the following paragraph. If Github
-     is not being used, then indicate where the license information
-     is. If GitHub is being used link to your LICENSE.md file in the
-     next paragraph.}
+The group may produce test suites, schemas, examples, prototypes, and other software artifacts to support the specifications. See the relevant GitHub repository `LICENSE` file for software contribution licensing information.
 
 The group **may** produce test suites to support the specifications. See the GitHub `LICENSE` file for test suite contribution licensing information.
 
 ## Dependencies or Liaisons
 
-{TBD: List any significant dependencies on other groups (inside or
-      outside W3C) or materials. }
+The group expects to coordinate, where appropriate, with:
+- W3C Credentials Community Group;
+- W3C DID-related communities and the DID Specification Registries process;
+- Solid community work;
+- relevant archival, records-management, and public-sector interoperability communities, including eCH and related initiatives.
+
+The group depends conceptually on existing standards including DID Core, PROV-O, Verifiable Credentials, JSON-LD, and related Web architecture components.
 
 ## Community and Business Group Process
 
-The group operates under the [Community and Business Group
-Process](https://www.w3.org/community/about/process). Terms in this
-Charter that conflict with those of the Community and Business Group
-Process are void.
+The group operates under the [Community and Business Group Process](https://www.w3.org/community/about/process). Terms in this Charter that conflict with those of the Community and Business Group Process are void.
 
-As with other Community Groups, W3C seeks organizational licensing
-commitments under the [W3C Community Contributor License Agreement
-(CLA)](https://www.w3.org/community/about/process/cla/). When people
-request to participate without representing their organization’s legal
-interests, W3C will in general approve those requests, with the
-following understanding: W3C will seek and expect an organizational
-commitment under the CLA starting with the individual's first request
-to make a contribution to a group [Deliverable](#deliverable). The
-section on [Contribution Mechanics](#contrib) describes how W3C
-expects to monitor these contribution requests.
+As with other Community Groups, W3C seeks organizational licensing commitments under the [W3C Community Contributor License Agreement (CLA)](https://www.w3.org/community/about/process/cla/). When people request to participate without representing their organization’s legal interests, W3C will in general approve those requests, with the following understanding: W3C will seek and expect an organizational commitment under the CLA starting with the individual's first request to make a contribution to a group [Deliverable](#deliverable). The section on [Contribution Mechanics](#contrib) describes how W3C expects to monitor these contribution requests.
 
-The [W3C Code of Conduct](https://www.w3.org/policies/code-of-conduct/) and [W3C Antitrust and competition policy](https://www.w3.org/policies/antitrust-2024/) apply to participation in this group.
+The [W3C Code of Conduct](https://www.w3.org/policies/code-of-conduct/) and [W3C Antitrust and competition policy] https://www.w3.org/policies/antitrust-2024/) apply to participation in this group.
 
 ## Work Limited to Charter Scope
 
@@ -102,102 +99,34 @@ Substantive contributions to specifications can only be made by Community Group 
 
 Reports other than Specifications published by this group should use the [W3C Software and Document License](https://www.w3.org/copyright/software-license-2023/) where possible.
 
-{TBD: if CG doesn't use GitHub replace the remaining paragraphs in
-      this section with: "All Contributions are made on the groups
-      public mail list or public contrib list"}
-
 Community Group participants agree to make all contributions in the GitHub repository the group is using for the particular document — e.g., via pull requests, issues, or comments on existing issues. 
 
 All GitHub repositories attached to the Community Group must contain a copy of the [CONTRIBUTING](https://github.com/w3c/licenses/blob/main/CG-CONTRIBUTING.md) and [LICENSE](https://github.com/w3c/licenses/blob/main/CG-LICENSE.md) files.
 
 ## Transparency
 
-The group will conduct all technical work in public. If the group uses GitHub, technical work will occur in its GitHub repositories (and not privately on mailing lists).
+The group will conduct all technical work in public. Technical discussions, issue tracking, pull requests, and editorial work will occur in public GitHub repositories (and not privately on mailing lists).
 
-Meetings may be restricted to Community Group participants, but a public summary or minutes must be posted to the group’s public mailing list or as an issue on GitHub.
+Meetings may be restricted to Community Group participants, but a public summary or minutes must be posted as an issue on GitHub.
 
 ## Decision Process
 
-{TBD: If the decision policy is documented elsewhere, link to it here.}
+The group seeks to make decisions by consensus.
 
-This group will seek to make decisions where there is
-      consensus. Groups are free to decide how to make decisions
-      (e.g., Participants who have earned Committer status for a
-      history of useful contributions assess consensus, or the Chair
-      assesses consensus, or where consensus isn't clear there is a
-      Call for Consensus [CfC] to allow multi-day online feedback for
-      a proposed course of action). It is expected that participants
-      can earn Committer status through a history of valuable
-      contributions, as is common in open source projects. After
-      discussion and due to consideration of different opinions, a
-      decision should be publicly recorded (where GitHub is used as
-      the resolution of an Issue).
+The detailed decision-making model, role definitions, and governance practices are described in the RecordWeb [`GOVERNANCE.md`](https://github.com/recordweb/.github/blob/main/GOVERNANCE.md) document. In summary:
+- technical decisions are discussed publicly in GitHub issues and pull requests;
+- editors and chairs summarise outcomes;
+- where consensus cannot be reached, the Chairs may decide with reasoning documented in public;
+- governance and scope changes follow an extended public discussion period.
 
-If substantial disagreement remains (e.g., the group is divided) and
-      the group needs to decide an Issue in order to continue to make
-      progress, the Committers will choose an alternative that had
-      substantial support (with a vote of Committers if
-      necessary). Individuals who disagree with the choice are
-      strongly encouraged to take ownership of their objection by
-      taking ownership of an alternative fork. This is explicitly
-      allowed (and preferred to blocking progress) 
-      to let implementation experience inform which spec is
-      ultimately chosen by the group to move ahead with.
-
-Any decisions reached at any meeting are tentative and should be
-      recorded in a GitHub Issue for groups that use GitHub and
-      otherwise on the group's public mail list. Any group participant
-      may object to a decision reached at an online or in-person
-      meeting within 7 days of publication of the decision provided
-      that they include clear technical reasons for their
-      objection. The Chairs will facilitate discussion to try to
-      resolve the objection according to this decision process.
-
-
-It is the Chairs' responsibility to ensure that the decision process
-      is fair, respects the consensus of the CG, and does not
-      unreasonably favor or discriminate against any group
-      participant or their employer.
+Any decisions reached at meetings are tentative until publicly recorded. Any group participant may object within 7 days of publication of a decision, provided that they include clear technical or procedural reasons for the objection.
 
 ## Chair Selection
 
-Participants in this group choose their Chair(s) and can replace their
-      Chair(s) at any time using whatever means they prefer. However, if 5
-      participants, no two from the same organization, call for an election,
-      the group must use the following process to replace any current Chair(s)
-      with a new Chair, consulting the Community Development Lead on election
-      operations (e.g., voting infrastructure and using [RFC 3797](https://datatracker.ietf.org/doc/html/rfc3797)).
+Participants in this group choose their Chair(s) and can replace their Chair(s) at any time using whatever means they prefer. However, if 5 participants, no two from the same organization, call for an election, the group must use the following process to replace any current Chair(s) with a new Chair, consulting the Community Development Lead on election operations (e.g., voting infrastructure and using [RFC 3797](https://datatracker.ietf.org/doc/html/rfc3797)).
 
-Participants choose their Chair(s) and can replace them at any time. However, if 5 participants (no two from the same organization) call for an election, the group must use the following process, consulting the Community Development Lead on election operations:
-
-* Participants announce their candidacies. Participants have 14 days to
-      announce their candidacies, but this period ends as soon as all
-      participants have announced their intentions. If there is only one
-      candidate, that person becomes the Chair. If there are two or more
-      candidates, there is a vote. Otherwise, nothing changes.
-* Participants vote. Participants have 21 days to vote for a single
-      candidate, but this period ends as soon as all participants have
-      voted.  The individual who receives the most votes, no two from
-      the same organization, is elected chair. In case of a tie,
-      RFC3797 is used to break the tie. An elected Chair may appoint
-      co-Chairs.
-
-Participants dissatisfied with the outcome of an election may ask the
-      Community Development Lead to intervene. The Community
-      Development Lead, after evaluating the election, may take any
-      action including no action.
+Participants dissatisfied with the outcome of an election may ask the Community Development Lead to intervene. The Community Development Lead, after evaluating the election, may take any action including no action.
 
 ## Amendments to This Charter
 
-The group can decide to work on a proposed amended charter, editing
-the text using the [Decision Process](#decision) described above.  The
-decision on whether to adopt the amended charter is made by conducting
-a 30-day vote on the proposed new charter. The new charter, if
-approved, takes effect on either the proposed date in the charter
-itself, or 7 days after the result of the election is announced,
-whichever is later. A new charter must receive 2/3 of the votes cast
-in the approval vote to pass. The group may make simple corrections to
-the charter such as deliverable dates by the simpler group decision
-process rather than this charter amendment process. The group will use
-the amendment process for any substantive changes to the goals, scope,
-deliverables, decision process or rules for amending the charter.
+The group can decide to work on a proposed amended charter, editing the text using the [Decision Process](#decision) described above. The decision on whether to adopt the amended charter is made by conducting a 30-day vote on the proposed new charter. The new charter, if approved, takes effect on either the proposed date in the charter itself, or 7 days after the result of the election is announced, whichever is later. A new charter must receive 2/3 of the votes cast in the approval vote to pass. The group may make simple corrections to the charter such as deliverable dates by the simpler group decision process rather than this charter amendment process. The group will use the amendment process for any substantive changes to the goals, scope, deliverables, decision process or rules for amending the charter.
