@@ -8,7 +8,7 @@
 
 ## 1. Purpose
 
-This document describes the governance of the RecordWeb GitHub organisation and the RecordWeb W3C Community Group. It defines roles, decision-making processes, and the principles under which the community operates.
+This document complements the RecordWeb Community Group [`CGCharter.md`](https://github.com/recordweb/.github/blob/main/CGCharter.md). It describes the governance of the RecordWeb GitHub organisation and the RecordWeb W3C Community Group. It defines roles, decision-making processes, and the principles under which the community operates.
 
 Governance is kept minimal in the formation phase. This document will be extended as the Community Group grows.
 
@@ -79,7 +79,7 @@ Members are institutions with a professional interest in RecordWeb. Membership i
 
 **Registration:** Open an issue using the [Member Registration template](.github/ISSUE_TEMPLATE/member-registration.md). A Chair confirms registration within 10 working days.
 
-Member organisations do not have voting rights on technical decisions. Their input is documented and explicitly considered in specification development.
+Member organisations do not have voting rights on technical decisions. Their input is documented and explicitly considered in specification development. Member organisations are not required to agree to the W3C Community Contributor License Agreement (CLA) as long as they do not contribute normative specification text. Contributions in the form of use cases, requirements, pilot feedback, or review comments are welcome and do not by themselves create patent commitments; only text that becomes part of a specification is treated as a CLA-governed contribution.
 
 > **Note on future legal structure:** RecordWeb anticipates forming a legal entity (association / Verein under Swiss law or equivalent) as the community grows and institutional members require formal membership structures. This legal entity will be governed by statutes developed with input from the community. This document will be updated at that time.
 
@@ -124,7 +124,7 @@ Version increments are proposed by the Editor and confirmed by the Chairs. Publi
 
 ## 6. Code of Conduct
 
-RecordWeb adopts the [W3C Code of Ethics and Professional Conduct](https://www.w3.org/Consortium/cepc/) as its community standard. All participants — Contributors and Members alike — are expected to adhere to it.
+RecordWeb adopts the [W3C Code of Ethics and Professional Conduct](https://www.w3.org/Consortium/cepc/) and the [W3C Antitrust and Competition Policy](https://www.w3.org/policies/antitrust-2024) as its community standard. All participants — Contributors and Members alike — are expected to adhere to these policies.
 
 Reports of conduct issues should be sent to the Chairs directly via GitHub issue tagged `[conduct]` (visible only to Chairs).
 
