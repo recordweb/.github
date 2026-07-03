@@ -38,7 +38,8 @@ These documents are the single-author initial contribution by [Nik Jenzer](https
 
 | Repository | Description | Status |
 |---|---|---|
-| [`w3c-cg-note`](https://github.com/recordweb/w3c-cg-note) | W3C Community Group Note — the primary specification document | Active, v0.0.1 draft |
+| [`rwc`](https://github.com/recordweb/rwc) | RecordWeb Concept (RWC) - the primary report | Initial Editor's Draft — baseline from DOI 10.5281/zenodo.20475343 |
+| [`rwp`](https://github.com/recordweb/rwc) | RecordWeb Protocol (RWP) - the primary specification | Initial Editor's Draft — baseline from DOI 10.5281/zenodo.20475345 |
 | `did-rwp` | `did:rwp` DID Method Specification | Planned W3C CG deliverable |
 | `poc-xyz` | Proof-of-Concept: several demonstrator, mocup, proofs, ... | Planned |
 
@@ -76,7 +77,7 @@ The `did:rwp` DID method will be submitted to the [W3C DID Specification Registr
 
 ## Governance
 
-This organisation is governed by the RecordWeb Community Group. See [`GOVERNANCE.md`](GOVERNANCE.md) for the decision-making model, roles, and process.
+This organisation is governed by the RecordWeb Community Group. See [`CGCharter.md`](CGCharter.md) and [`GOVERNANCE.md`](GOVERNANCE.md) for the decision-making model, roles, and process.
 
 ---
 
