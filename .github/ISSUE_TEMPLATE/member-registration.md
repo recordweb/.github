@@ -18,13 +18,15 @@ working days and add your institution to MEMBERS.md.
 
 **Institution name:**
 
-**Sector** (e.g. public administration, healthcare, academia, vendor, standards body):
+**Official website:**
+
+**Sector:** (e.g. public administration, healthcare, academia, vendor, standards body)
 
 **Country / jurisdiction:**
 
-**Primary contact** (name, email or GitHub handle):
+**Primary contact:** (name, email or GitHub handle)
 
-**Area of interest in RecordWeb** (e.g. specific use case, records management context, pilot interest):
+**Area of interest in RecordWeb:** (e.g. specific use case, records management context, pilot interest)
 
 **How do you intend to participate?**
 - [ ] Providing use cases / requirements
