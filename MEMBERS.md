@@ -12,4 +12,4 @@ This is distinct from being a **Contributor** (an individual, joined via the [of
 
 | Institution | Sector | Area of Interest | Registered |
 |---|---|---|---|
-| _No Members registered yet — be the first!_ | | | |
+| [Bundeskanzlei](https://www.bk.admin.ch), Switzerland | public administration | records management context | 2026-07-30 |
