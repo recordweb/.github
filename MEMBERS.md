@@ -6,7 +6,7 @@ Membership is not a legal relationship — it is a declaration of professional e
 
 This is distinct from being a **Contributor** (an individual, joined via the [official W3C Community Group page](https://www.w3.org/community/recordweb/), bound by the CLA). An institution can have staff who are Contributors, be registered as a Member, or both — the two roles are independent.
 
-**To register:** open an issue using the [Member Registration template](.github/ISSUE_TEMPLATE/member-registration.md). A Chair will confirm registration within 10 working days and add the institution below.
+**To register:** [open a Member Registration issue](https://github.com/recordweb/.github/issues/new?template=member-registration.md). A Chair will confirm registration within 10 working days and add the institution below.
 
 ## Registered Members
 

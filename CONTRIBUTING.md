@@ -25,7 +25,7 @@ Members are institutions — public administrations, hospitals, regulated organi
 
 **To register as a Member:**
 
-Open an issue using the [Member Registration template](.github/ISSUE_TEMPLATE/member-registration.md) in this repository. A Chair confirms registration within 10 working days and adds your institution to [`MEMBERS.md`](MEMBERS.md).
+[Open a Member Registration issue](https://github.com/recordweb/.github/issues/new?template=member-registration.md) in this repository. A Chair confirms registration within 10 working days and adds your institution to [`MEMBERS.md`](MEMBERS.md).
 
 ---
 

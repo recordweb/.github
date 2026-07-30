@@ -77,7 +77,7 @@ Members are institutions with a professional interest in RecordWeb. Membership i
 - Review specification drafts from an institutional perspective
 - Are listed in the [`MEMBERS.md`](MEMBERS.md) file of this organisation
 
-**Registration:** Open an issue using the [Member Registration template](.github/ISSUE_TEMPLATE/member-registration.md). A Chair confirms registration within 10 working days.
+**Registration:** [Open a Member Registration issue](https://github.com/recordweb/.github/issues/new?template=member-registration.md). A Chair confirms registration within 10 working days.
 
 Member organisations do not have voting rights on technical decisions. Their input is documented and explicitly considered in specification development. Member organisations are not required to agree to the W3C Community Contributor License Agreement (CLA) as long as they do not contribute normative specification text. Contributions in the form of use cases, requirements, pilot feedback, or review comments are welcome and do not by themselves create patent commitments; only text that becomes part of a specification is treated as a CLA-governed contribution.
 
