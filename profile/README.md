@@ -52,7 +52,7 @@ The RecordWeb specification was developed in two foundational documents, both pu
 | **RWC — RecordWeb Concept** | Conceptual foundations, design principles, relationship to archival science | [10.5281/zenodo.20475343](https://doi.org/10.5281/zenodo.20475343) |
 | **RWP v0.1 — RecordWeb Protocol** | Normative technical specification: DID format, snapshot structure, version graph, Cases, federation, payload deletion | [10.5281/zenodo.20475345](https://doi.org/10.5281/zenodo.20475345) |
 
-These documents are the single-author initial contribution by [Nik Jenzer](https://github.com/nikjenzer). They are explicitly intended as the foundation for a community-developed v1.0 — not as the conclusion of the specification process.
+These documents are the single-author initial contribution by [Nik Jenzer](https://github.com/Jenziner). They are explicitly intended as the foundation for a community-developed v1.0 — not as the conclusion of the specification process.
 
 ---
 
@@ -76,8 +76,8 @@ Institutions with a professional stake in RecordWeb — public administrations, 
 
 RecordWeb is being developed as a W3C Community Group — the open, international forum for collaborative specification development.
 
-- **Chairs:** Nik Jenzer · Melvin Carvalho
-- **Status:** Formation phase — founding members welcome
+- **Chairs:** [Nik Jenzer](https://github.com/Jenziner) · [Melvin Carvalho](https://github.com/melvincarvalho)
+- **Offical w3c sites:** [RecordWeb Community Group](https://www.w3.org/community/recordweb/) / [Mailing List](https://lists.w3.org/Archives/Public/public-recordweb/)
 
 The `did:rwp` DID method will be submitted to the [W3C DID Specification Registries](https://www.w3.org/TR/did-spec-registries/) as a Community Group deliverable.
 
