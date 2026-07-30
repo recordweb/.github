@@ -12,4 +12,4 @@ This is distinct from being a **Contributor** (an individual, joined via the [of
 
 | Institution | Sector | Area of Interest | Registered |
 |---|---|---|---|
-| [Bundeskanzlei](https://www.bk.admin.ch), Switzerland | public administration | records management context | 2026-07-30 (#2) |
+| [Bundeskanzlei](https://www.bk.admin.ch), Switzerland | public administration | records management context | 2026-07-30 [#2](https://github.com/recordweb/.github/issues/2) |
