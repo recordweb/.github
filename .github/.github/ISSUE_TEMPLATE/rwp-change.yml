@@ -1,0 +1,54 @@
+name: "RWP Change Proposal"
+description: "Propose a change to the normative RecordWeb Protocol specification."
+title: "[RWP] "
+labels:
+  - "rwp"
+  - "needs-cfc"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This template is for changes to **RWP**, the normative specification. All substantive changes here require a Call for Consensus (CfC). If your change is purely editorial (typos, formatting) you may skip the CfC fields, but please say so explicitly below.
+
+  - type: textarea
+    id: proposed-change
+    attributes:
+      label: Proposed change
+      description: Describe the normative text or behavior you want to add, remove, or modify. Quote the current text if applicable.
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why is this change needed? What problem does it solve, or what gap does it close?
+    validations:
+      required: true
+
+  - type: textarea
+    id: rwc-impact
+    attributes:
+      label: Impact on RWC (concept explainer)
+      description: Does this change require an update to RWC? If yes, describe what needs to change there. If no, write "None".
+    validations:
+      required: true
+
+  - type: textarea
+    id: home-impact
+    attributes:
+      label: Impact on home (general documentation)
+      description: Does this change require an update to home? If yes, describe what needs to change there. If no, write "None".
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: cfc-required
+    attributes:
+      label: Call for Consensus
+      description: Substantive normative changes always require CfC.
+      options:
+        - label: This change requires a Call for Consensus (CfC) before merging.
+          required: false
+        - label: This is purely editorial and does not change normative meaning (CfC may be skipped; Editors will confirm).
+          required: false
