@@ -1,0 +1,50 @@
+name: "home Change Proposal"
+description: "Propose a change to home (stories, landing page, general documentation)."
+title: "[home] "
+labels:
+  - "home"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This template is for changes to **home** — stories, the landing page, and other general-audience documentation. Most changes here are purely descriptive and do NOT require a Call for Consensus. Read the scope check below carefully before proceeding: it exists to catch cases where a seemingly descriptive change actually introduces new conceptual ground.
+
+  - type: dropdown
+    id: concept-check
+    attributes:
+      label: Does this change state or imply something conceptual that RWC does not currently define or describe?
+      description: For example, a new relationship between roles, a new claim about how the protocol behaves, or a new distinction that isn't already in RWC. Answer honestly — when in doubt, choose "Yes".
+      options:
+        - "No, this is purely descriptive (wording, structure, translation, illustrative example)"
+        - "Yes, this touches on something not yet defined in RWC"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        **If you answered "Yes" above:** please open an Issue in the `rwc` repository instead of (or in addition to) this one, and link it here. Do not proceed with a direct change in `home` until the conceptual question has been resolved there.
+
+  - type: textarea
+    id: proposed-change
+    attributes:
+      label: Proposed change
+      description: Describe what you want to add, remove, or reword, and where (e.g. stories/de/03.html, index.html).
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why is this change useful for readers?
+    validations:
+      required: false
+
+  - type: input
+    id: rwc-link
+    attributes:
+      label: Linked RWC Issue (if applicable)
+      description: If you answered "Yes" above, paste the link to the corresponding RWC Issue here.
+    validations:
+      required: false
