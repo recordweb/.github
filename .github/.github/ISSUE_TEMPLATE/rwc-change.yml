@@ -1,0 +1,54 @@
+name: "RWC Change Proposal"
+description: "Propose a change to the RecordWeb Concept (RWC) explainer document."
+title: "[RWC] "
+labels:
+  - "rwc"
+  - "needs-cfc"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This template is for changes to **RWC**, the non-normative concept explainer. Changes here still require a Call for Consensus (CfC), since RWC represents the Community Group's shared understanding of the concept.
+
+  - type: checkboxes
+    id: normative-check
+    attributes:
+      label: Scope check
+      description: Please confirm before proceeding.
+      options:
+        - label: I have checked that this change does NOT modify or contradict a normative statement in RWP. If it does, I will open an Issue in the rwp repository instead.
+          required: true
+
+  - type: textarea
+    id: proposed-change
+    attributes:
+      label: Proposed change
+      description: Describe the section, definition, or explanation you want to add, remove, or modify.
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why is this change needed? What is unclear, missing, or outdated in the current text?
+    validations:
+      required: true
+
+  - type: textarea
+    id: home-impact
+    attributes:
+      label: Impact on home (general documentation)
+      description: Does this change require an update to home (e.g. stories, concepts section)? If yes, describe what needs to change there. If no, write "None".
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: cfc-required
+    attributes:
+      label: Call for Consensus
+      options:
+        - label: This change requires a Call for Consensus (CfC) before merging.
+          required: false
+        - label: This is purely editorial and does not change conceptual meaning (CfC may be skipped; Editors will confirm).
+          required: false
