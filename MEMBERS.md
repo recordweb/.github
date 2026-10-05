@@ -13,3 +13,4 @@ This is distinct from being a **Contributor** (an individual, joined via the [of
 | Institution | Sector | Area of Interest | Registered |
 |---|---|---|---|
 | [Bundeskanzlei](https://www.bk.admin.ch), Switzerland | public administration | records management context | 2026-07-30 [#2](https://github.com/recordweb/.github/issues/2) |
+| [CM Informatik AG](https://cmi.ch), Switzerland | vendor | practical and implementation oriented (implementability, conformance, authorisation, operation and relationship to other standards) | 2026-09-23 [#7](https://github.com/recordweb/.github/issues/7) |
