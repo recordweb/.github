@@ -1,6 +1,6 @@
 # RecordWeb — GOVERNANCE.md
 
-> Version: 0.0.1 Draft — Formation Phase  
+> Version: 0.0.2 Draft — Formation Phase  
 > Status: In effect from the date of W3C Community Group charter adoption  
 > Maintained by: RecordWeb Community Group Chairs
 
@@ -110,7 +110,57 @@ Community decisions (changes to this document, scope changes, chair nominations)
 
 ---
 
-## 5. Versioning and Publication
+## 5. Change Cascade Across Repositories
+
+RecordWeb's work is split across three repositories with different levels of formality:
+
+| Repository | Role | Normative? | CfC required? |
+|------------|------|------------|---------------|
+| `rwp` | Protocol specification | Yes | Yes |
+| `rwc` | Concept explainer | No | Yes |
+| `home` | General documentation and landing site | No | Only if reclassified (see below) |
+
+Changes follow one of three tracks, depending on where they originate.
+
+### 5.1 Normative Track (originates in `rwp`)
+
+1. An Issue is opened in `rwp`.
+2. If the change affects `rwc` and/or `home`, the Issue MUST include a section "Required follow-up changes" describing them.
+3. The Issue goes through the standard Call for Consensus (CfC) process.
+4. After consensus, `rwp` is updated first, followed by `rwc` and `home` as described in the Issue.
+
+### 5.2 Conceptual Track (originates in `rwc`)
+
+1. An Issue is opened in `rwc`.
+2. If the change affects `home`, the Issue MUST include a section "Required follow-up changes".
+3. The Issue goes through the CfC process.
+4. After consensus, `rwc` is updated, followed by `home`.
+
+### 5.3 Descriptive Track (originates in `home`)
+
+Purely descriptive changes (wording, structure, illustrative examples, translations) do not require a CfC. They may be made directly, optionally preceded by an Issue for discussion.
+
+### 5.4 Directionality
+
+Change proposals flow downward only:
+
+- `rwp` may require changes in `rwc` and `home`.
+- `rwc` may require changes in `home`.
+- `home` MUST NOT require changes in `rwc` or `rwp`.
+
+If a discussion in a lower-tier repository reveals that the underlying issue is conceptual or normative, the Issue is not moved or relabeled. Instead:
+
+1. The original Issue is closed with a comment explaining the reclassification.
+2. A new Issue is opened in the appropriate repository (`rwc` or `rwp`).
+3. Both Issues are cross-linked, so the original discussion remains accessible.
+
+### 5.5 Classification
+
+If it is unclear whether a change is normative, conceptual, or descriptive, the Editors decide. Contributors are encouraged to flag the uncertainty in the Issue rather than guess.
+
+---
+
+## 6. Versioning and Publication
 
 RecordWeb documents follow [Semantic Versioning](https://semver.org/):
 
@@ -122,7 +172,7 @@ Version increments are proposed by the Editor and confirmed by the Chairs. Publi
 
 ---
 
-## 6. Code of Conduct
+## 7. Code of Conduct
 
 RecordWeb adopts the [W3C Code of Ethics and Professional Conduct](https://www.w3.org/Consortium/cepc/) and the [W3C Antitrust and Competition Policy](https://www.w3.org/policies/antitrust-2024) as its community standard. All participants — Contributors and Members alike — are expected to adhere to these policies.
 
@@ -130,7 +180,7 @@ Reports of conduct issues should be sent to the Chairs directly via GitHub issue
 
 ---
 
-## 7. Intellectual Property
+## 8. Intellectual Property
 
 All specification contributions are made under the [W3C Community Contributor License Agreement](https://www.w3.org/community/about/agreements/cla/). This ensures that the specification can be implemented royalty-free.
 
@@ -138,7 +188,7 @@ Software contributions (reference implementations, tooling) are licensed under [
 
 ---
 
-## 8. Amendments
+## 9. Amendments
 
 This document may be amended by the Chairs following the community decision process described in Section 4.2. The change history is maintained in the Git history of this file.
 
